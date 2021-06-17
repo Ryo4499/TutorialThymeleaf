@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Object Confirm</title>
+</head>
+
+<body>
+	<h1>th:objectでの呼び出し</h1>
+	<div th:object="${userForm}">
+	<label>Name</label>
+	<p type="text" name="name" id="name" th:text="*{name}"></p>
+	<label>Email</label>
+	<p type="email" name="email" id="email" th:text="*{email}"></p>
+	<label>Password</label>
+	<p type="password" name="password" id="password" th:text="*{password}"></p>
+	</div>
+	
+	<h1>パラメータ名.変数名での呼び出し</h1>
+	<label>Name</label>
+	<p type="text" name="name" id="name" th:text="${userForm.name}"></p>
+	<label>Email</label>
+	<p type="email" name="email" id="email" th:text="${userForm.email}"></p>
+	<label>Password</label>
+	<p type="password" name="password" id="password" th:text="${userForm.password}"></p>
+	
+</body>
+
+</html>

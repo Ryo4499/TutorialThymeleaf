@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloWorld</title>
+</head>
+<body>
+	<!-- SpringのaddAttributeで設定したパラメータ名を指定することでその中の値を出力する -->
+	<!-- 先程の例で"HelloWorld!!"といれているので､pタグの中にHelloWorld!!という文字列が入ることになる -->
+   <p th:text="${helloworld}"></p>
+</body>
+</html>

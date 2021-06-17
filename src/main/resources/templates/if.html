@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>If</title>
+</head>
+
+<body>
+	<div th:if="${message}">
+		<p>message</p>
+	</div>
+	<div th:if="${hello}==null">
+		<p>hello null</p>
+	</div>
+	<div th:if="${hello}">
+		<p>hello non null</p>
+	</div>
+</body>
+
+</html>
