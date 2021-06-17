@@ -8,3 +8,5 @@
 1. リストの抽出(list.html)
 1. 日付のフォーマット指定(date.html)
 1. JavaScriptを埋め込む(js.html)
+
+>[Qita](https://qiita.com/Ryo_g/items/2eb7744c8532cc9c42e2)
