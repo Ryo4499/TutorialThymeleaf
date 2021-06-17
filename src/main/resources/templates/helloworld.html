@@ -10,5 +10,11 @@
 	<!-- SpringのaddAttributeで設定したパラメータ名を指定することでその中の値を出力する -->
 	<!-- 先程の例で"HelloWorld!!"といれているので､pタグの中にHelloWorld!!という文字列が入ることになる -->
    <p th:text="${helloworld}"></p>
+   
+   <a th:href="@{/object}">object</a><br>
+   <a th:href="@{/if}">if</a><br>
+   <a th:href="@{/list}">list</a><br>
+   <a th:href="@{/date}">date</a><br>
+   <a th:href="@{/js}">js</a><br>
 </body>
 </html>

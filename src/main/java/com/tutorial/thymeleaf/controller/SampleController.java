@@ -42,6 +42,10 @@ public class SampleController {
     model.addAttribute("userForm", userForm);
     // 普通ならここでuserFormをuserクラスに変換してDaoにデータを渡している
     User user = makeUser(userForm);
+    System.out.println(user.getId());
+    System.out.println(user.getName());
+    System.out.println(user.getEmail());
+    System.out.println(user.getPassword());
     return "object-confirm";
   }
 
