@@ -1,5 +1,7 @@
 # TutorialThymeleaf
 
+>[Qita](https://qiita.com/Ryo_g/items/2eb7744c8532cc9c42e2)
+
 ## 目次
 1. はじめに
 1. 基本データ型の値の表示(helloworld.html)
@@ -9,4 +11,4 @@
 1. 日付のフォーマット指定(date.html)
 1. JavaScriptを埋め込む(js.html)
 
->[Qita](https://qiita.com/Ryo_g/items/2eb7744c8532cc9c42e2)
+
